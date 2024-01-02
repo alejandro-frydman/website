@@ -1,8 +1,8 @@
 ---
 about:
-  template: jolla
-  id: about-block
-  image: "img/headshot.jpg"
+  template: broadside
+  image-shape: rectangle
+  image: "img/pic2.jpg"
   links:
     - icon: twitter
       text: Twitter
@@ -25,7 +25,7 @@ Welcome! I am a PhD Candidate in the <a href="https://polisci.mit.edu" target="_
 
 I study American politics, with a primary focus on Latino political behavior. Broadly, I am interested in Latino identity as a pan-ethnic category and how diversity within the Latino community can shape how Latinos engage with politics. Additionally, I have interests in survey methodology and local politics.
 
-Before graduate school, I worked as a campaign pollster at Lake Research Partners and opposition researcher at Spiros Consulting. I graduated with a B.A. in Political Science with a minor in Latin American Studies from Washington University in St. Louis.
+Before graduate school, I worked as a campaign pollster at Lake Research Partners and opposition researcher at Spiros Consulting. I graduated with a B.A. in Political Science and a minor in Latin American Studies from Washington University in St. Louis.
 
 In my free time, I love to cook, go to shows, and watch movies. If you happen to be curious about what I'm listening to or what movies I've recently watched here is my <a href="https://www.last.fm/user/alefrydman" target="_blank">last.fm</a> and <a href="https://letterboxd.com/alejandrofrydm/" target="_blank">Letterboxd</a>
 

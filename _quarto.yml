@@ -4,30 +4,23 @@ website:
   image: img/headshot.jpg
   
   favicon: img/mit_logo.png
-  
+  search: false
   # start of the navication bar at the top of the website
   navbar:
     pinned: true
     # Top left corner logo
-    logo: /img/mit_logo.png
     
     background: primary
 
     # Sub-pages
-    left:
+    right:
     - text: "Research"
       href: research/research.qmd
     - text: "CV"
       href: cv/cv.qmd
       
-    # social media handles
-    right:
-        - icon: twitter
-          href: https://twitter.com/AleFrydman
-        - icon: linkedin
-          href: https://www.linkedin.com/in/alejandro-frydman-2a795a112/
-        - icon: github
-          href: https://github.com/alejandro-frydman
+
+    
        
 
 project:
@@ -45,16 +38,9 @@ execute:
   
 format:
   html:
-    fontsize: 1.1em
-    theme:
-        - pulse
-        - html/styles.scss
+    theme: yeti
+    css: styles.css
     toc: false
-    code-link: true
-    anchor-sections: true
-    fig-cap-location: margin
-    reference-location: margin
-    footnotes-hover: true
+    page-layout: full
 
-editor: visual
 
