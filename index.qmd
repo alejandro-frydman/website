@@ -1,6 +1,6 @@
 ---
 about:
-  template: broadside
+  template: trestles
   image-shape: rectangle
   image: "img/pic2.jpg"
   links:
