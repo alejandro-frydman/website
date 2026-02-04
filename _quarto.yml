@@ -1,46 +1,36 @@
-
-website:
-  title: "Alejandro Frydman"
-  image: img/headshot.jpg
-  
-  favicon: img/mit_logo.png
-  search: false
-  # start of the navication bar at the top of the website
-  navbar:
-    pinned: true
-    # Top left corner logo
-    
-    background: primary
-
-    # Sub-pages
-    right:
-    - text: "Research"
-      href: research/research.qmd
-    - text: "CV"
-      href: cv/cv.qmd
-      
-
-    
-       
-
 project:
   type: website
   output-dir: docs
-
   preview:
     port: 22222
     browser: true
     watch-inputs: true
     navigate: true
 
+website:
+  title: "Alejandro Frydman"
+  image: img/headshot.jpg
+  favicon: img/mit_logo.png
+  search: false
+
+  navbar:
+    pinned: true
+    background: "#2d3748"
+    right:
+      - text: "Research"
+        href: research/research.qmd
+      - text: "CV"
+        href: cv/cv.qmd
+
 execute:
   freeze: true
-  
+
 format:
   html:
-    theme: yeti
+    theme:
+      - flatly
+      - custom.scss
     css: styles.css
     toc: false
     page-layout: full
-
-
+    mainfont: "Work Sans"

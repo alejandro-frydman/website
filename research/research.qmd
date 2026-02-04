@@ -2,14 +2,79 @@
 title: Research
 ---
 
+## Dissertation
+
+::: dissertation-box
+### The Scope of Solidarity: Rethinking Latino Group Consciousness 
+
+<details>
+
+<summary>Show Abstract</summary>
+
+::: abstract-text
+
+:::
+
+</details>
+:::
+
 ## Published
 
-[Measuring Attentiveness in Self-Administered Surveys](https://academic.oup.com/poq/article-abstract/88/1/214/7636612?utm_source=etoc&utm_campaign=poq&utm_medium=email). (2024) with Adam Berinsky, Michele F. Margolis, Michael W. Sances, D. Camilla Valerio. *Public Opinion Quarterly*, 88(1), 214-241
+::: paper-entry
+#### Measuring Attentiveness in Self-Administered Surveys
+
+[With Adam Berinsky, Michele F. Margolis, Michael W. Sances, and D. Camilla Valerio]{.authors}
+
+[Public Opinion Quarterly, 2024, 88(1), 214-241]{.venue}
+
+<a href="https://academic.oup.com/poq/article-abstract/88/1/214/7636612" class="paper-link" target="_blank">Paper</a>
+
+<details>
+
+<summary>Show Abstract</summary>
+
+::: abstract-text
+The surge in online self-administered surveys has given rise to an extensive body of literature on respondent inattention, also known as careless or insufficient effort responding. This burgeoning literature has outlined the consequences of inattention and made important strides in developing effective methods to identify inattentive respondents. However, differences in terminology, as well as a multiplicity of different methods for measuring and correcting for inattention, have made this literature unwieldy. We present an overview of the current state of this literature, highlighting commonalities, emphasizing key debates, and outlining open questions deserving of future research. Additionally, we emphasize the key considerations that survey researchers should take into account when measuring attention.
+:::
+
+</details>
+:::
+
+## Working Papers
+
+::: paper-entry
+#### ¡Oralé! Unpacking the Impact of Spanish-Language Accents on Latino Identity in U.S. Political Mobilization
+
+[With Alejandro (Alex) Flores]{.authors}
+
+<details>
+
+<summary>Show Abstract</summary>
+
+::: abstract-text
+Spanish-language appeals are a common tool for mobilizing Latino voters, yet most
+research treats Spanish as a uniform cue of a panethnic Latino identity. This paper
+argues that Spanish-language communication operates through a dual-cue logic: it can
+signal shared panethnicity, while the accent of delivery simultaneously cues national ori-
+gin attachments. Using a preregistered survey experiment of 937 Mexican-origin Lati-
+nos, we test how accent congruence–whether the accent in a Spanish-language appeal
+matches listeners’ national origin background–shapes evaluations of a Latino candidate.
+Respondents exposed to a Puerto Rican accent rated the candidate less favorably and
+perceived weaker commitment to the Mexican-American community than those exposed
+to a Mexican accent. These findings show that accent incongruence weakens the link
+between language and representation, highlighting how subtle linguistic variation can
+complicate identity-based outreach and efforts to mobilize the nation’s second largest
+ethno-racial group.
+:::
+
+</details>
+:::
 
 ## Works in Progress
 
-¡Oralé! Unpacking the Impact of Spanish-Language Accents on Latino Identity in U.S. Political Mobilization. (with Alejandro (Alex) Flores)
+::: paper-entry
+#### The Participatory Consequences of Latino Diversity
 
-The Participatory Consequences of Latino Diversity
+:::
 
-Visions of America: Identity, Partisanship, and Nativist Attitudes Among Latinos
+

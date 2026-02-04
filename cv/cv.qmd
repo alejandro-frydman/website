@@ -1,39 +1,29 @@
 ---
-layout: page
-excerpt: My current CV
+title: CV
 execute:
-  freeze: true  # never re-render during project render
-engine: knitr 
+  freeze: true
+engine: knitr
 resources:
   - "Frydman_CV_.pdf"
-cv:
-  pdf: "Frydman_CV_.pdf"
 ---
 
 ```{css echo=FALSE}
-.embed-container {
-    position: relative;
-    padding-bottom: 129%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-}
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
+.cv-container {
     width: 100%;
-    height: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.cv-container iframe {
+    width: 100%;
+    height: 85vh;
+    min-height: 800px;
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
 }
 ```
 
 ```{=html}
-<p class="text-center">
-</p>
-<div class="embed-container">
-  <iframe src="`r rmarkdown::metadata$cv$pdf`#toolbar=0" style="border: 0.5px;width: 100%;"></iframe>
+<div class="cv-container">
+  <iframe src="Frydman_CV_.pdf#toolbar=0"></iframe>
 </div>
 ```
-
