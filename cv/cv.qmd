@@ -3,27 +3,27 @@ title: CV
 execute:
   freeze: true
 engine: knitr
+page-layout: full
 resources:
   - "Frydman_CV_.pdf"
 ---
 
 ```{css echo=FALSE}
-.cv-container {
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
+#quarto-content.page-columns {
+    display: block !important;
 }
-.cv-container iframe {
-    width: 100%;
-    height: 85vh;
-    min-height: 800px;
-    border: 1px solid #e2e8f0;
-    border-radius: 5px;
+#quarto-document-content {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.cv-container embed {
+    display: block;
 }
 ```
 
 ```{=html}
 <div class="cv-container">
-  <iframe src="Frydman_CV_.pdf#toolbar=0"></iframe>
+  <embed src="Frydman_CV_.pdf" type="application/pdf" width="100%" height="1000px"/>
 </div>
 ```
