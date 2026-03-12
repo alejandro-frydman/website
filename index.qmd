@@ -16,6 +16,9 @@ about:
     - icon: twitter
       text: Twitter
       href: https://twitter.com/AleFrydman
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=rqG3cAoAAAAJ&hl=en&oi=ao
 ---
 
 ## About

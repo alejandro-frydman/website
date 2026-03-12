@@ -17,6 +17,8 @@ website:
     pinned: true
     background: "#2d3748"
     right:
+      - text: "Home"
+        href: index.qmd
       - text: "Research"
         href: research/research.qmd
       - text: "CV"
