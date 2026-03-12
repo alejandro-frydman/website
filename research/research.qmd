@@ -43,9 +43,11 @@ The surge in online self-administered surveys has given rise to an extensive bod
 ## Working Papers
 
 ::: paper-entry
-#### ¡Oralé! Unpacking the Impact of Spanish-Language Accents on Latino Identity in U.S. Political Mobilization
+#### ¡Oralé! Unpacking the Impact of Spanish-Language Accents on Latino Identity in U.S. Political Mobilization 
 
 [With Alejandro (Alex) Flores]{.authors}
+
+[Under Review]{.venue}
 
 <details>
 
