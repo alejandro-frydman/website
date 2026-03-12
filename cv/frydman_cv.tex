@@ -1,0 +1,180 @@
+\documentclass[margin,line]{res}
+
+% xcolor, hyperref, and etaremune are already loaded by res.cls
+\usepackage{fontawesome}
+\usepackage{pifont} % required for \ding used in list1 environment
+
+% Override hyperref URL color with MIT red
+\definecolor{MITRed}{RGB}{163,31,52}
+\hypersetup{urlcolor=MITRed}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+% Tight bullet list (diamond marker)
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+
+% Tight bullet list (bullet marker)
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\begin{document}
+
+%%% HEADER
+\name{\LARGE Alejandro Frydman \vspace*{.1in}}
+
+\begin{resume}
+
+%%% CONTACT
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{2.5in}p{3.2in}}
+Department of Political Science   & {\faEnvelopeO} \href{mailto:afrydman@mit.edu}{\tt afrydman@mit.edu} \\
+Massachusetts Institute of Technology  & \href{https://www.alejandro-frydman.com}{alejandro-frydman.com} \\
+77 Massachusetts Avenue, E53-470  &
+\end{tabular}
+
+%%% EDUCATION
+\section{\sc Education}
+
+{\bf Massachusetts Institute of Technology}, Cambridge, MA\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] Ph.D., Political Science \hfill September 2021 -- \textit{present}
+  \begin{list2}
+    \vspace*{.05in}
+    \item[] Fields: American Politics, Models \& Methods
+  \end{list2}
+\end{list1}
+
+{\bf Washington University in St. Louis}, St. Louis, MO\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] B.A., Political Science and Statistics (\textit{cum laude}) \hfill August 2015 -- May 2019
+  \begin{list2}
+    \item[] Minor in Latin American Studies
+  \end{list2}
+\end{list1}
+
+%%% RESEARCH INTERESTS
+\section{\sc Research Interests}
+Latino politics, Latino identity, race and ethnic politics, survey methods, local politics
+\vspace*{.1in}
+
+%%% PUBLICATIONS
+\section{\sc Publications}
+\begin{etaremune}[start=1]
+  \setlength\itemindent{-1em}
+  \setlength\labelsep{0.5em}
+  \item Berinsky, Adam, \textbf{Alejandro Frydman}, Michele F. Margolis, Michael D. Sances, and D. Camila Valerio. 2024. ``Measuring Attentiveness in Self-Administered Surveys.'' \textit{Public Opinion Quarterly}. 88(1): 214--241.
+\end{etaremune}
+
+%%% WORKING PAPERS
+\section{\sc Working Paper}
+\begin{list1}
+  \setlength\itemindent{-1em}
+  \setlength\labelsep{0.5em}
+  \item[] ``\textit{Oralé!} Country-Specific Accents and Spanish Language Campaign Appeals in the United States'' (with Alex Flores). \textit{Under Review.}
+\end{list1}
+
+%%% WORKS IN PROGRESS
+\section{\sc Works in Progress}
+\begin{list1}
+  \item[] ``The Participatory Consequences of Latino Diversity''
+  \vspace*{.05in}
+\end{list1}
+
+%%% RESEARCH ASSISTANCE
+\section{\sc Research Assistance}
+Professor Adam Berinsky, MIT  \hfill {Summer 2022} \\
+Professor Ariel White, MIT \hfill {Fall 2023, Summer 2024} \\
+Professor Bailey Flanigan, MIT \hfill {Fall 2025} \\
+
+%%% TEACHING
+\section{\sc Teaching}
+{\bf Massachusetts Institute of Technology}\\
+\vspace*{-.15in}
+\begin{list1}
+  \item[] Teaching Assistant, Data and Politics (F. Daniel Hidalgo) \hfill {Spring 2024}
+\end{list1}
+
+%%% RESEARCH AFFILIATION
+\section{\sc Research Affiliation}
+Global Diversity Lab Graduate Research Fellow, MIT \hfill {Fall 2023--} \\
+Political Experiments Research Lab Research Assistant, MIT \hfill {Fall 2024, Spring 2025}
+
+%%% GRANTS AND FUNDING
+\section{\sc Grants and Funding}
+American Politics Research Grant, Department of Political Science, MIT (\$5,000) \hfill {2026} \\
+APSA Latino Caucus Annual Meeting Travel Grant (\$500) \hfill {2024} \\
+Center for International Studies Summer Research Grant (\$4,000) \hfill {2024} \\
+APSA Fund for Latino Scholarship (\$500) \hfill {2023} 
+
+%%% AWARDS
+\section{\sc Awards \& Fellowships}
+Antoinette Dames Prize, Washington University in St. Louis \hfill {Spring 2018}
+
+%%% PRESENTATIONS
+\section{\sc Selected Talks \& Conference Presentations}
+\textbf{Conferences}
+\vspace*{.05in}
+\begin{list2}
+  \item[] Midwest Political Science Association Conference, \textit{Presenter} \hfill {2026}
+  \item[] Princeton Conference on Identity and Inequality, \textit{Poster} \hfill {2026}
+  \item[] American Political Science Association Conference, \textit{Presenter} \hfill {2024}
+  \item[] Midwest Political Science Association Conference, \textit{Presenter} \hfill {2023, 2024}
+  \item[] Midwest Political Science Association Conference, \textit{Presenter} \hfill {2023}
+\end{list2}
+
+\vspace{0.1in}
+
+%%% SERVICE
+\section{\sc Service}
+Graduate Student Mentor \hfill {2022, 2023} \\
+MIT Political Science Application Mentorship Program \hfill {2022--2024} \\
+American Politics Junior Faculty Search Committee \hfill {Fall 2023}
+
+%%% PROFESSIONAL EXPERIENCE
+\section{\sc Professional Experience}
+{\bf Lake Research Partners}, Washington, DC \hfill {February 2020--May 2021}\\
+\vspace*{-.15in}
+\begin{list1}
+  \item[] Associate Analyst
+\end{list1}
+
+{\bf Spiros Consulting}, Washington, DC \hfill {June 2019--February 2020}\\
+\vspace*{-.15in}
+\begin{list1}
+  \item[] Research Associate
+\end{list1}
+
+%%% MEMBERSHIPS
+\section{\sc Membership}
+American Political Science Association \\
+Midwest Political Science Association
+
+%%% SKILLS
+\section{\sc Programming}
+Proficient in: R, \LaTeX, Qualtrics
+
+\section{\sc Language}
+Spanish (fluent)
+
+\begin{center}
+\emph{Last Updated: \today}
+\end{center}
+
+\end{resume}
+\end{document}
