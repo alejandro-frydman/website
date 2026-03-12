@@ -1,8 +1,8 @@
 {
-  "hash": "472c14d20cc10086ef0ca6218047f492",
+  "hash": "5becece08195abb529780a2ea01b0ac1",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: CV\nexecute:\n  freeze: true\nengine: knitr\npage-layout: full\nresources:\n  - \"Frydman_CV_.pdf\"\n---\n\n::: {.cell}\n<style type=\"text/css\">\n#quarto-content.page-columns {\n    display: block !important;\n}\n#quarto-document-content {\n    max-width: 850px;\n    margin: 0 auto;\n    padding: 0 2rem;\n}\n.cv-container embed {\n    display: block;\n}\n</style>\n:::\n\n```{=html}\n<div class=\"cv-container\">\n  <embed src=\"Frydman_CV_.pdf\" type=\"application/pdf\" width=\"100%\" height=\"1000px\"/>\n</div>\n```\n",
+    "markdown": "---\ntitle: CV\nexecute:\n  freeze: true\nengine: knitr\npage-layout: full\nresources:\n  - \"frydman_cv.pdf\"\n---\n\n::: {.cell}\n<style type=\"text/css\">\n#quarto-content.page-columns {\n    display: block !important;\n}\n#quarto-document-content {\n    max-width: 850px;\n    margin: 0 auto;\n    padding: 0 2rem;\n}\n.cv-container embed {\n    display: block;\n}\n</style>\n:::\n\n```{=html}\n<div class=\"cv-container\">\n  <embed src=\"frydman_cv.pdf\" type=\"application/pdf\" width=\"100%\" height=\"1000px\"/>\n</div>\n```\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
