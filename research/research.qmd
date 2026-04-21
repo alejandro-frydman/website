@@ -5,14 +5,14 @@ title: Research
 ## Dissertation
 
 ::: dissertation-box
-### The Scope of Solidarity: Rethinking Latino Group Consciousness 
+### The Scope of Solidarity: Panethnic Identity and Political Action Among Latinos
 
 <details>
 
 <summary>Show Abstract</summary>
 
 ::: abstract-text
-
+Studies of Latino political behavior assume group members share a common mental referent when invoking group identity. Yet the panethnic label was constructed with deliberately ambiguous boundaries. Existing frameworks document variation in identity strength and salience but not in the *content* of the identity. I introduce *identity scope*, defined as the breadth of the mental representation group members hold of the panethnic category. Scope varies from narrow (Latino = own national origin group) to broad (Latino encompasses the full range of origin groups). Using 72 in-depth interviews, I describe how as the Latino community diversifies, Latinos increasingly face panethnic choices, or decisions about whether to express political solidarity with Latinos outside their own national origin group. Identity scope is the missing cognitive antecedent that determines who counts as the group before any solidarity calculation begins. Using an original survey of N=1,308 self-identified Latinos with a pre-registered embedded experiment, I find that Latinos with narrow scope are less supportive of immigration policy with an outgroup beneficiary and allocate fewer resources to outgroup political organizations. These results highlight how existing measurement likely overestimates panethnic solidarity, while also revealing the continued incentive to deploy ambiguous panethnic language to sustain fragile coalitions.
 :::
 
 </details>
@@ -47,7 +47,7 @@ The surge in online self-administered surveys has given rise to an extensive bod
 
 [With Alejandro (Alex) Flores]{.authors}
 
-[Under Review]{.venue}
+[R&R at *Journal or Race, Ethnicity, and Politics*]{.venue}
 
 <details>
 
@@ -76,6 +76,8 @@ ethno-racial group.
 
 ::: paper-entry
 #### The Participatory Consequences of Latino Diversity
+
+#### Linked Fate for Whom? Identity Scope and the Limits of Latino Linked Fate as a Measure
 
 :::
 
