@@ -43,10 +43,24 @@ a, button {
 
 /* Abstract toggle functionality */
 details summary {
+  list-style: none;
   cursor: pointer;
   color: #3182ce;
   font-size: 0.9rem;
   margin-top: 0.5rem;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary::before {
+  content: "▸ ";
+  display: inline-block;
+}
+
+details[open] summary::before {
+  content: "▾ ";
 }
 
 details summary:hover {
