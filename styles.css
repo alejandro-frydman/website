@@ -80,6 +80,10 @@ details .abstract-text {
   line-height: 1.6;
 }
 
+.dissertation-box details .abstract-text {
+  border-left: none;
+}
+
 /* Section styling for research page */
 .research-section {
   margin-bottom: 3rem;
