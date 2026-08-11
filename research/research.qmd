@@ -47,7 +47,7 @@ The surge in online self-administered surveys has given rise to an extensive bod
 
 [With Alejandro (Alex) Flores]{.authors}
 
-[R&R at *Journal or Race, Ethnicity, and Politics*]{.venue}
+[Forthcoming at *Journal or Race, Ethnicity, and Politics*]{.venue}
 
 <details>
 
@@ -58,7 +58,7 @@ Spanish-language appeals are a common tool for mobilizing Latino voters, yet mos
 research treats Spanish as a uniform cue of a panethnic Latino identity. This paper
 argues that Spanish-language communication operates through a dual-cue logic: it can
 signal shared panethnicity, while the accent of delivery simultaneously cues national ori-
-gin attachments. Using a preregistered survey experiment of 937 Mexican-origin Lati-
+gin attachments. Using a preregistered survey experiment of 953 Mexican-origin Lati-
 nos, we test how accent congruence–whether the accent in a Spanish-language appeal
 matches listeners’ national origin background–shapes evaluations of a Latino candidate.
 Respondents exposed to a Puerto Rican accent rated the candidate less favorably and
