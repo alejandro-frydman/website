@@ -4,7 +4,7 @@
 $charcoal: #2d3748;
 $charcoal-light: #4a5568;
 $charcoal-lighter: #718096;
-$pop-color: #3182ce;  // A nice blue pop color
+$pop-color: $charcoal-light;  // grey accent, used for links and highlights
 $off-white: #f7fafc;
 $white: #ffffff;
 
@@ -65,12 +65,14 @@ h3 {
 // Links
 a {
   color: $pop-color;
-  text-decoration: none;
-  transition: color 0.2s ease;
+  text-decoration: underline;
+  text-decoration-color: $charcoal-lighter;
+  text-underline-offset: 2px;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
 
   &:hover {
-    color: darken($pop-color, 15%);
-    text-decoration: underline;
+    color: $charcoal;
+    text-decoration-color: $charcoal;
   }
 }
 
@@ -87,7 +89,7 @@ a {
   }
 
   .nav-link {
-    color: rgba(255, 255, 255, 0.9) !important;
+    color: #a0aec0 !important; // grey nav text on the black header
     padding: 0.5rem 1rem;
 
     &:hover {
@@ -111,6 +113,7 @@ a {
       border-radius: 4px;
       font-size: 0.9rem;
       font-weight: 500;
+      text-decoration: none;
       transition: background-color 0.2s ease;
 
       &:hover {
@@ -220,6 +223,13 @@ a {
   .paper-title {
     font-size: 1.25rem;
   }
+}
+
+// Crop the homepage photo to a portrait frame instead of its native landscape shape
+div.quarto-about-trestles .about-image {
+  aspect-ratio: 4 / 5;
+  width: 20em;
+  object-position: center;
 }
 
 // Footer
