@@ -1,5 +1,7 @@
 ---
 title: Research
+resources:
+  - "frydman_flores_accents.pdf"
 ---
 
 ## Published
@@ -30,6 +32,8 @@ The surge in online self-administered surveys has given rise to an extensive bod
 [With Alejandro (Alex) Flores]{.authors}
 
 [Forthcoming at *Journal or Race, Ethnicity, and Politics*]{.venue}
+
+<a href="frydman_flores_accents.pdf" class="paper-link" target="_blank">Paper</a>
 
 <details>
 
