@@ -232,6 +232,33 @@ div.quarto-about-trestles .about-image {
   object-position: center;
 }
 
+// Mobile / tablet tweaks (matches Quarto's trestles breakpoint)
+@media (max-width: 991.98px) {
+  // Trestles sets padding-top to 0 on small screens, so the photo butted up
+  // against the navbar. Add the space back.
+  div.quarto-about-trestles {
+    padding-top: 2em !important;
+  }
+
+  // Squarer crop on mobile so both shoulders stay in frame
+  div.quarto-about-trestles .about-image {
+    aspect-ratio: 1 / 1;
+    width: min(20em, 100%);
+  }
+
+  // Quarto truncates the brand with an ellipsis ("Alejandro Fry...").
+  // Let it use more of the bar and shrink the font a touch so the full name fits.
+  .navbar-brand-container {
+    max-width: calc(100% - 60px);
+  }
+
+  .navbar .navbar-brand {
+    font-size: 1.1rem;
+    overflow: visible;
+    text-overflow: clip;
+  }
+}
+
 // Footer
 .nav-footer {
   background-color: $charcoal;
