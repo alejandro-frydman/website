@@ -1,7 +1,8 @@
 ---
 title: Research
 resources:
-  - "Frydman and Flores (2026).pdf"
+  - "measuringattentiveness_2024.pdf"
+  - "Frydman_and_Flores_2026.pdf"
 ---
 
 ## Published
@@ -13,7 +14,7 @@ resources:
 
 [Public Opinion Quarterly, 2024, 88(1), 214-241]{.venue}
 
-<a href="https://academic.oup.com/poq/article-abstract/88/1/214/7636612" class="paper-link" target="_blank">Paper</a>
+<a href="measuringattentiveness_2024.pdf" class="paper-link" target="_blank">Paper</a> <a href="https://doi.org/10.1093/poq/nfae004" class="paper-link" target="_blank">DOI</a>
 
 <details>
 
@@ -33,7 +34,7 @@ The surge in online self-administered surveys has given rise to an extensive bod
 
 [Journal of Race, Ethnicity, and Politics, 2026, FirstView]{.venue}
 
-<a href="Frydman%20and%20Flores%20(2026).pdf" class="paper-link" target="_blank">Paper</a> <a href="https://doi.org/10.1017/rep.2026.10103" class="paper-link" target="_blank">DOI</a>
+<a href="Frydman_and_Flores_2026.pdf" class="paper-link" target="_blank">Paper</a> <a href="https://doi.org/10.1017/rep.2026.10103" class="paper-link" target="_blank">DOI</a>
 
 <details>
 
@@ -71,4 +72,24 @@ Studies of Latino political behavior assume group members share a common mental 
 
 :::
 
+## Applied Polling & Public Writing
 
+::: paper-entry
+#### One Week Later, Evaluating Our 2026 Polls
+
+[With Kevin Collins]{.authors}
+
+[Survey 160 Methodological Research Blog, November 2026]{.venue}
+
+<a href="https://www.survey160.com/methodological-research-blog/one-week-later-evaluating-our-2026-polls" class="paper-link" target="_blank">Post</a>
+:::
+
+::: paper-entry
+#### Survey 160 Pre-Election Surveys in Four States
+
+[With Kevin Collins, Alex Dawahare, and Oscar Castorena]{.authors}
+
+[Survey 160 Methodological Research Blog, November 2026]{.venue}
+
+<a href="https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states" class="paper-link" target="_blank">Post</a>
+:::
